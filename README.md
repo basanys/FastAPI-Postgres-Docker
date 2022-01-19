@@ -1,8 +1,8 @@
 ## Simple FlaskAPI with Postgres Database.
+Start the app `docker-compose up`
 
-You can post book and author to following end points, and later query book from db.
+You can post book and author to following end points, and later query book from database.
 
-#### End Points:
-[POST Book] (localhost:8080/add-book/)
-[POST Author] (localhost:8080/add-author/)
-[GET Book] (localhost:8080/books/)
+Endpoints
+[POST to BOOKS and Authors tables ../docs](localhost:8080/docs/)
+[GET books from database ../books](localhost:8080/books/)
